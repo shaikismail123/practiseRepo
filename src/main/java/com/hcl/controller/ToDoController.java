@@ -51,4 +51,10 @@ public class ToDoController {
 		return "redirect:/";
 	}
 
+	
+	@GetMapping("/delete/{id}")
+	public String delete(@PathVariable(value = "id") long id) {
+		this.toDoServiceImpl.deleteToDoList(id);
+		return "redirect:/";
+	}
 }
