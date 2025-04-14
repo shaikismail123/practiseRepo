@@ -34,4 +34,10 @@ public class ToDoServiceImpl implements ToDoService {
 		toDoRepository.deleteById(id);
 	}
 
+	@Override
+	public void deleteToDoList() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

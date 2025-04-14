@@ -16,5 +16,7 @@ public interface ToDoService {
 	public abstract void saveToDoList(ToDoEntity entity);
 
 	public abstract void deleteToDoList(Long id);
+	
+	public abstract void deleteToDoList();
 
 }
